@@ -1,0 +1,571 @@
+.blue-overlay {
+    background-size: cover !important;
+    position: relative;
+    z-index: 1;
+
+}
+.single-service {
+    min-height: 490px !important;
+}
+.blue-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #037EBD;
+    content: "";
+    z-index: -1;
+    opacity: .4;
+}
+.breadcrumb-area {
+    padding: 130px 0 200px 0;
+    color: #fff;
+    position: relative;
+}
+
+.breadcrumb-area .banner-title {
+    text-align: center;
+}
+
+.breadcrumb-area .banner-title h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .breadcrumb-area .banner-title h2 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 575px) {
+    .breadcrumb-area .banner-title h2 {
+        font-size: 32px;
+    }
+}
+
+.breadcrumb-area .page-breadcrumb {
+    background: #008BD3;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.breadcrumb-area .page-breadcrumb ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.breadcrumb-area .page-breadcrumb ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.breadcrumb-area .page-breadcrumb ul li:last-child:after {
+    display: none;
+}
+
+.breadcrumb-area .page-breadcrumb ul li a {
+    color: #ffffff;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.breadcrumb-area .page-breadcrumb ul li a:hover {
+    color: #ffffff;
+}
+
+.breadcrumb-area .page-breadcrumb ul li:after {
+    position: absolute;
+    font-size: 18px;
+    content: "\f101";
+    font-family: 'FontAwesome';
+    color: #ffffff;
+    top: -2px;
+    right: 0;
+}
+
+@media (max-width: 767px) {
+    .custom-banner {
+        text-align: center;
+    }
+
+    .page-breadcrumb ul {
+        float: none;
+    }
+
+    .banner-title {
+        margin-bottom: 20px;
+    }
+}
+
+/* ==============================
+   Portfolio area
+   ============================== */
+.portfolio-filter {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  margin-top: -8px;
+}
+
+.port-filter-center {
+    text-align: center;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+}
+
+.portfolio-filter li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    color: #292929;
+    font-weight: 700;
+    transition: 0.4s;
+    text-decoration: none;
+    position: relative;
+}
+
+.portfolio-filter li a:hover,
+.portfolio-filter li.active a,
+.f-link li a:hover,
+.f-link li.active a {
+    color: #008BD3;
+}
+/* service area */
+.services-area{
+  background: #9aa8c2 !important;
+}
+.services-area .service-carousel {
+    position: relative;
+}
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    z-index: 1;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.section-title {
+    margin-bottom: 10px;
+    margin-top: -11px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-left: 5%;
+    text-align: center;
+    color: #ffff;
+}
+.custom-select{
+  height: 50px;
+  background: #f9f9f9;
+  margin-bottom: 30px;
+}
+
+.section-padding .section-title{
+  color:#008bd3;
+}
+
+.section-title h2 span {
+    color: #008BD3 !important;
+}
+
+.section-title p {
+    margin-bottom: 50px !important;
+}
+
+.services-area .service-carousel .owl-nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+
+.services-area .service-carousel .owl-nav button {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: transparent;
+    margin: 0 5px;
+    font-size: 20px;
+    color: #008BD3;
+    border: 1px solid #008BD3;
+}
+
+.services-area .service-carousel .owl-nav button:hover {
+    background: #008BD3;
+    color: #ffffff;
+}
+
+.services-area .service-carousel .single-service.style-2 {
+    padding: 60px 30px 40px 30px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 139, 211, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.services-area .service-carousel .single-service.style-2 .icons {
+    margin-bottom: 0;
+    position: relative;
+    height: 80px;
+    width: 90px;
+}
+
+.services-area .service-carousel .single-service.style-2 .icons::before {
+    position: absolute;
+    background: url(/images/service2.jpg) no-repeat;
+    height: 80px;
+    width: 80px;
+    top: -40px;
+    left: 0;
+    content: "";
+}
+
+.services-area .service-carousel .single-service.style-2 .icons i {
+    font-size: 62px;
+    margin-top: 25px;
+    display: block;
+    margin-left: 20px;
+}
+
+.services-area .service-carousel .single-service.style-2 h3 {
+    font-size: 24px;
+}
+
+.services-area .service-carousel .single-service.style-2 p {
+    margin-bottom: 20px;
+}
+
+.services-area .service-carousel .single-service.style-2 a {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #292929;
+    border-radius: 50%;
+}
+
+.services-area .service-carousel .single-service.style-2 a:hover {
+    background: #008BD3;
+    color: #ffffff;
+}
+
+.services-area .service-carousel .single-service.style-2:hover .icons i {
+    color: #008BD3;
+}
+
+.services-area .service-carousel .single-service.style-2:hover h3 {
+    color: #008BD3;
+}
+
+.services-area .service-carousel .single-service.style-2:hover a {
+    background: #008BD3;
+    color: #ffffff;
+}
+
+.services-area .single-service {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 30px;
+    transition: 0.4s;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.services-area .single-service .service-icon {
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.services-area .single-service .service-icon i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 28px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 7px;
+    transition: 0.3s;
+}
+
+.services-area .single-service h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+
+.services-area .single-service h3 a {
+    color: #292929;
+}
+
+.services-area .single-service p {
+    margin: 0;
+}
+
+.services-area .single-service:hover a {
+    color: #008BD3;
+}
+
+.services-area .single-service.style-2 {
+    padding: 60px 30px 40px 30px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 139, 211, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.services-area .single-service.style-2 .icons {
+    margin-bottom: 0;
+    position: relative;
+    height: 80px;
+    width: 90px;
+}
+
+.services-area .single-service.style-2 .icons::before {
+    position: absolute;
+    background: url(/assets/images/nav-logo.jpg) no-repeat;
+    height: 80px;
+    width: 80px;
+    top: -40px;
+    left: 0;
+    content: "";
+}
+
+.services-area .single-service.style-2 .icons i {
+    font-size: 62px;
+    margin-top: 25px;
+    display: block;
+    margin-left: 20px;
+}
+
+.services-area .single-service.style-2 h3 {
+    font-size: 24px;
+}
+
+.services-area .single-service.style-2 p {
+    margin-bottom: 20px;
+}
+
+.services-area .single-service.style-2 a {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #292929;
+    border-radius: 50%;
+    display: block;
+}
+
+.services-area .single-service.style-2 a:hover {
+    background: #008BD3;
+    color: #ffffff;
+}
+
+.services-area .single-service.style-2:hover .icons i {
+    color: #008BD3;
+}
+
+.services-area .single-service.style-2:hover h3 {
+    color: #008BD3;
+}
+
+.services-area .single-service.style-2:hover a {
+    background: #008BD3;
+    color: #ffffff;
+}
+
+.services-area .services-details {
+    margin-bottom: 30px;
+}
+
+.services-area .services-details img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.services-area .services-details h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.services-area .services-details p {
+    margin-bottom: 20px;
+}
+
+.services-area .services-details .service-grid h4 {
+    margin-bottom: 15px;
+}
+
+.services-area .services-details .service-grid ul li {
+    padding-left: 25px;
+    position: relative;
+}
+
+.services-area .services-details .service-grid ul li::before {
+    position: absolute;
+    left: 0;
+    font-family: Fontawesome;
+    content: "\f00c";
+    color: #008BD3;
+}
+
+.services-area .services-details .single-surgeon img {
+    margin-bottom: 20px;
+}
+
+.services-area .services-details .single-surgeon .surgeon-meta h5 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+.services-area .services-details .single-surgeon .surgeon-meta p {
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.services-area .services-details .single-surgeon .surgeon-meta a {
+    color: #555555;
+    margin: 0 3px;
+}
+
+.services-area .services-details .single-surgeon .surgeon-meta a:hover {
+    color: #008BD3;
+}
+
+.services-area .services-details .single-surgeon:hover h5 {
+    color: #008BD3;
+}
+
+.services-area .service-sidebar .single-sidebar {
+    margin-bottom: 50px;
+}
+
+.services-area .service-sidebar .single-sidebar:last-child {
+    margin-bottom: 0;
+}
+
+.services-area .service-sidebar .single-sidebar h3 {
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.services-area .service-sidebar .single-sidebar h3::before {
+    position: absolute;
+    width: 3px;
+    background: #008BD3;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.services-area .service-sidebar .single-sidebar form {
+    width: 100%;
+    position: relative;
+    height: 50px;
+}
+
+.services-area .service-sidebar .single-sidebar form input {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.services-area .service-sidebar .single-sidebar form input:focus {
+    border-bottom: 2px solid #008BD3;
+}
+
+.services-area .service-sidebar .single-sidebar form button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    color: #008BD3;
+    height: 100%;
+    width: 50px;
+}
+
+.services-area .service-sidebar .single-sidebar ul li {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.services-area .service-sidebar .single-sidebar ul li:last-child {
+    border-bottom: 0;
+}
+
+.services-area .service-sidebar .single-sidebar ul li a {
+    color: #555555;
+}
+
+.services-area .service-sidebar .single-sidebar ul li a:hover {
+    color: #008BD3;
+}
+/* appointment area */
+.appointment-area .appointment-content input, .appointment-area .appointment-content textarea {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    transition: 0.3s;
+    background: #F9F9F9;
+    margin-bottom: 30px;
+    text-indent: 15px;
+}
+
+.appointment-area .appointment-content input:focus, .appointment-area .appointment-content textarea:focus {
+    border: 1px solid #008BD3;
+}
+
+.appointment-area .appointment-content input {
+    height: 50px;
+}
+
+.appointment-area .appointment-content textarea {
+    padding-top: 10px;
+    height: 50px;
+}
+
+/* button */
+button.bttn-mid.btn-fill.left-bttn {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 30px;
+    background: #008bd3;
+    color: white;
+    border: white;
+    border-radius: 10px;
+}

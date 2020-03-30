@@ -1,0 +1,32 @@
+/*
+* @Author: user
+* @Date:   2019-08-30 17:58:32
+* @Last Modified by:   user
+* @Last Modified time: 2019-08-30 18:27:31
+*/
+.container-fluid{
+	height: 90%;
+	width: 100%;
+	background: lightseagreen;
+	position: absolute;
+	margin-top:52px;
+	animation: upper 7s infinite;
+}
+@keyframes upper{
+	0%{
+		background:blue;
+	  }
+
+	  25%{
+	  	background: yellow;
+	  }
+	  50%{
+	  	background: green;
+	  }
+	  75%{
+	  	background: skyblue;
+	  }
+	  100%{
+	  	background: lightseagreen;
+	  }
+}

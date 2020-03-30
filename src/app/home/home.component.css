@@ -1,0 +1,20 @@
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/assets/images/backhd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#start_btn{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#title_qoutes{
+    margin:auto;
+}
